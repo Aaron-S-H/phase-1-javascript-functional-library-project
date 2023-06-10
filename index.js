@@ -86,11 +86,14 @@ function myFirst(array, n){
         return array[0];
 }
 }
-function myLast(array, n){
+function myLast(array, n = false){
+    // return (n) ? array.slice(array.length-n, array.length) : array[array.length - 1];
     if(n){
-        return array.slice(-n);
+      let result = array.slice(array.length - n, array.length);
+      return result;
+
     }else{
-        return array.pop();
+        return array[array.length - 1];
     }
 }
 

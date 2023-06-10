@@ -2,12 +2,12 @@
   "stats": {
     "suites": 11,
     "tests": 27,
-    "passes": 26,
+    "passes": 27,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-06-10T11:37:48.215Z",
-    "end": "2023-06-10T11:37:48.641Z",
-    "duration": 426
+    "failures": 0,
+    "start": "2023-06-10T13:42:56.605Z",
+    "end": "2023-06-10T13:42:57.082Z",
+    "duration": 477
   },
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "title": "calls alert properly on object values",
       "fullTitle": "index.js myEach calls alert properly on object values",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -34,7 +34,7 @@
     {
       "title": "successfully returns a correctly populated array",
       "fullTitle": "index.js myMap successfully returns a correctly populated array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -62,7 +62,7 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js myReduce returns the correct reduced value when passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -76,7 +76,7 @@
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js myReduce does not modify the original array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -104,7 +104,7 @@
     {
       "title": "does not traverse the whole array if the value is found early",
       "fullTitle": "index.js myFind does not traverse the whole array if the value is found early",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -153,7 +153,7 @@
     {
       "title": "returns the first n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js myFirst returns the first n elements of the collection when the second optional argument (n) is provided",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -169,18 +169,12 @@
       "fullTitle": "index.js myLast returns the last n elements of the collection when the second optional argument (n) is provided",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected false to equal true",
-        "showDiff": true,
-        "actual": "false",
-        "expected": "true",
-        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/indexTest.js:177:61)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
+      "err": {}
     },
     {
       "title": "retrieves all the names of the object's own enumerable properties",
       "fullTitle": "index.js myKeys retrieves all the names of the object's own enumerable properties",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -207,21 +201,7 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "returns the last n elements of the collection when the second optional argument (n) is provided",
-      "fullTitle": "index.js myLast returns the last n elements of the collection when the second optional argument (n) is provided",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected false to equal true",
-        "showDiff": true,
-        "actual": "false",
-        "expected": "true",
-        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/indexTest.js:177:61)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "calls alert with each element passed",
@@ -233,7 +213,7 @@
     {
       "title": "calls alert properly on object values",
       "fullTitle": "index.js myEach calls alert properly on object values",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -247,7 +227,7 @@
     {
       "title": "successfully returns a correctly populated array",
       "fullTitle": "index.js myMap successfully returns a correctly populated array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -275,7 +255,7 @@
     {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js myReduce returns the correct reduced value when passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -289,7 +269,7 @@
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js myReduce does not modify the original array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -317,7 +297,7 @@
     {
       "title": "does not traverse the whole array if the value is found early",
       "fullTitle": "index.js myFind does not traverse the whole array if the value is found early",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -366,7 +346,7 @@
     {
       "title": "returns the first n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js myFirst returns the first n elements of the collection when the second optional argument (n) is provided",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -378,9 +358,16 @@
       "err": {}
     },
     {
+      "title": "returns the last n elements of the collection when the second optional argument (n) is provided",
+      "fullTitle": "index.js myLast returns the last n elements of the collection when the second optional argument (n) is provided",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "retrieves all the names of the object's own enumerable properties",
       "fullTitle": "index.js myKeys retrieves all the names of the object's own enumerable properties",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
